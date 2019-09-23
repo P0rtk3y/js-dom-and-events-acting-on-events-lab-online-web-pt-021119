@@ -13,8 +13,8 @@ function retrieveEmployeeInformation(){
 function addNewElementAsLi(){
   const ul = document.querySelector('ul');
   const newLi = document.createElement('li');
-  newLi.innerHTML = retrieveEmployeeInformation()
-  ul.appendChild(newLi)
+  newLi.innerHTML = retrieveEmployeeInformation();
+  ul.appendChild(newLi);
 }
 
 function addNewLiOnClick() {
